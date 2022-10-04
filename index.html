@@ -38,7 +38,7 @@
             <p>I'm turning the text into a paragraph.</p>
         </section>
     </header>
-    <main> <!-- I block with the main content of the page -->
+    <main> <!-- I block with the main content of the page. And I semantic tag. -->
         <table> <!-- I'm the most important tag to create a table -->
             <thead> <!-- I'm in charge of the table header -->
               <tr>
@@ -69,7 +69,21 @@
               </tr>
             </tbody>
           </table>
-          
+          <form action="" method="get"> <!-- Adds a form to the page -->
+            <p>
+              <label for="name"></label>  
+              <input type="text" name="name" id="name" placeholder="name" required> <!--  I allow you to create interactive elements on the site -->
+            </p>
+            <p>
+              <label for="email"></label>  
+              <input type="text" name="email" id="email" placeholder="email" required>
+            </p>
+            <button type="submit">Submit</button> <!-- I'm creating a clickable button -->
+          </form>
     </main>
+    <footer> <!-- I'm creating a page footer. And I semantic tag. -->
+      <p>Bohdan Kariev</p>
+      <p>Почта: <a href="mailto:karevbogdan@gmai.com">karevbogdan@gmai.com</a>.</p>
+    </footer>
 </body>
 </html>
